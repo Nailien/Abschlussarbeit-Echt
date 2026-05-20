@@ -1,0 +1,73 @@
+
+h1{
+color: aliceblue;
+font-size: 3em;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: #333;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
+div{
+    color: aliceblue;
+font-size: 2em;
+font-family: Arial, Helvetica, sans-serif;
+}
+#start{
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(172, 255, 47, 0.493);
+}
+#reset{
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(0, 0, 255, 0.822);
+}
+#stop{
+    
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(255, 51, 0, 0.822);
+}
+#start:hover{
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(192, 255, 97, 0.493);
+}
+#reset:hover{
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(78, 78, 255, 0.822);
+}
+#stop:hover{
+    
+    color: aliceblue;
+    width: 3cm;
+    height: 1.5cm;
+    border: #333;
+    border-radius: 0.5cm;
+    font-size: large;
+    background-color: rgba(255, 110, 74, 0.822);
+}

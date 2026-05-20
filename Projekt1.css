@@ -1,0 +1,43 @@
+#button1{
+width: 5cm;
+height: 4cm;
+
+border-color: rgb(83, 161, 115);
+border-radius: 0.5cm;
+background-color: rgb(45, 78, 63);
+color: aliceblue;
+font-size: 4em;
+font-family: Arial, Helvetica, sans-serif;
+}
+label{
+color: aliceblue;
+font-size: 9em;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: #333;
+    text-align: center;
+    align-items: center;
+}
+#button1:hover{
+width: 5cm;
+height: 4cm;
+
+border-color: rgb(81, 155, 112);
+border-radius: 0.5cm;
+background-color: rgb(55, 94, 76);
+color: aliceblue;
+font-size: 4em;
+font-family: Arial, Helvetica, sans-serif;
+}
+#button1:hover{
+width: 5cm;
+height: 4cm;
+
+border-color: rgb(96, 185, 133);
+border-radius: 0.5cm;
+background-color: rgb(62, 107, 87);
+color: aliceblue;
+font-size: 4em;
+font-family: Arial, Helvetica, sans-serif;
+}
