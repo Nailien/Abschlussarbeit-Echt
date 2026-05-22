@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+
+}
+
+h1{
+    font-size: 4em;
+}
+
+#brett{
+    
+    width: 750px;
+    height: 750px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 147px;
+    height: 147px;
+    border: 1px solid aliceblue;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.correct{
+ background-color: #6AAA64;
+ color:  aliceblue;
+ border-color: aliceblue;
+}
+.present{
+ background-color: #C9B458;
+ color:  aliceblue;
+ border-color: aliceblue;
+
+}
+.absent {
+ background-color: #787C7E;
+ color:  aliceblue;
+ border-color: aliceblue;
+}

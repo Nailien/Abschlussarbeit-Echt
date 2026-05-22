@@ -1,0 +1,65 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #202020;
+      color: aliceblue;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: #333;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #202020;
+      color: aliceblue;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .section {
+      margin-top: 40px;
+      
+    }
+    .pics {
+        height: 200px;
+        
+    }
+    #Taschenrechner{
+        height: 400px;
+        width: 350px;
+    }
+button{
+    background-color: #333;
+    color: aliceblue;
+
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+
+    padding: 10px 25px;
+
+    font-size: 1.2em;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: #333;
+}

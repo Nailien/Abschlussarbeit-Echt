@@ -8,6 +8,10 @@ let min = 1
 let randomnum = Math.floor(Math.random() * max) + min;
 let guess = 0;
 
+document.getElementById("submit").addEventListener("click", function(event){
+    event.preventDefault();
+});
+
 hello.textContent = `Guess a Number between ${min} - ${max}`
 
 submit.onclick = function() {

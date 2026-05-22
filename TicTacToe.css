@@ -1,14 +1,15 @@
 body{
-font-family: Arial, Helvetica, sans-serif;
-text-align: center;
-background-color: #333;
-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
 }
+
 h1{
     font-size: 4em;
 }
-div{
 
+#brett{
     width: 450px;
     height: 450px;
 
@@ -16,13 +17,48 @@ div{
     display: flex;
     flex-wrap: wrap;
 }
+
 .tile{
     width: 147px;
     height: 147px;
 
     font-size: 150px;
-        display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    cursor: pointer;
 }
 
+.horizontalelinien{
+    border-bottom: 3px solid aliceblue;
+}
 
+.verticalelinien{
+    border-right: 3px solid aliceblue;
+}
+
+.Gewinner{
+    background-color: #4b4b4b;
+    color: rgb(255, 89, 89);
+}
+button{
+    background-color: #333;
+    color: aliceblue;
+
+    border: 3px solid aliceblue;
+    border-radius: 5px;
+
+    padding: 10px 25px;
+
+    font-size: 1.2em;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: #333;
+}
