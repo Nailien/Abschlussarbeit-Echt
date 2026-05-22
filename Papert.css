@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #333;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 7em;
+}
+
+button{
+    background-color: #333;
+    color: aliceblue;
+
+    border: 3px solid aliceblue;
+    border-radius: 20px;
+
+    padding: 10px 25px;
+
+    font-size: 7em;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: #333;
+}
+.Spieler{
+    font-size: 4em;
+    align-items: left;
+}
+.green{
+    color: rgb(95, 255, 47);
+}
+.red{
+    color: rgb(255, 47, 47);
+}

@@ -41,7 +41,7 @@
     }
     #Taschenrechner{
         height: 400px;
-        width: 350px;
+        
     }
 button{
     background-color: #333;
@@ -62,4 +62,13 @@ button{
 button:hover{
     background-color: aliceblue;
     color: #333;
+}
+#Stein{
+  height: 250px;
+}
+#Tic{
+  height: 300px;
+}
+#Wordle{
+  height: 350px;
 }
