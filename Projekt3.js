@@ -19,27 +19,31 @@ reset.addEventListener("click", function(event) {
 });
 
 increase.onclick = function () {
-if (hid > 49) {
-hid += 2;
-} else if (hid > 98) {
-hid == 0;
-} else {
-hid++;
-}
-number.textContent = hid;
+    if (hid > 98) {
+        hid = 0;
+    } else if (hid > 49) {
+        hid += 2;
+    } else {
+        hid++;
+    }
+
+    number.textContent = hid;
 };
+
 reduce.onclick = function () {
-if (hid > 49) {
-hid -= 2;
-} else if (-100 > hid) {
-hid = 0;
-} else {
-hid--;
-}
-number.textContent = hid;
+    if (hid < -99) {
+        hid = 0;
+    } else if (hid < -49) {
+        hid -= 2;
+    } else {
+        hid--;
+    }
+
+    number.textContent = hid;
 };
+
 reset.onclick = function () {
-hid = 0;
-number.textContent = hid;
+    hid = 0;
+    number.textContent = hid;
 };
 //><
