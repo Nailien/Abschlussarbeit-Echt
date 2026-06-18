@@ -7,13 +7,13 @@ body{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #brett{
     
-    width: 750px;
-    height: 750px;
+    width: 500px;
+    height: 500px;
 
     margin: 0 auto;
     display: flex;
@@ -21,8 +21,8 @@ h1{
 }
 
 .tile{
-    width: 147px;
-    height: 147px;
+    width: 97px;
+    height: 97px;
     border: 1px solid aliceblue;
     font-size: 150px;
     display: flex;

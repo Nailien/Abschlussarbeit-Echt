@@ -1,19 +1,19 @@
 
 
 button{
-width: 5cm;
-height: 3cm;
+width: 4cm;
+height: 2cm;
 
 border-color: rgb(83, 161, 115);
 border-radius: 0.5cm;
 background-color: rgb(45, 78, 63);
 color: aliceblue;
-font-size: 2em;
+font-size: 1.5em;
 font-family: Arial, Helvetica, sans-serif;
 }
 label{
 color: aliceblue;
-font-size: 9em;
+font-size: 3em;
 font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -23,25 +23,12 @@ background-color: #333;
     color: aliceblue;
 }
 button:hover{
-width: 5cm;
-height: 3cm;
 
 border-color: rgb(81, 155, 112);
 border-radius: 0.5cm;
 background-color: rgb(55, 94, 76);
 color: aliceblue;
-font-size: 2em;
-font-family: Arial, Helvetica, sans-serif;
-}
-button:hover{
-width: 5cm;
-height: 3cm;
 
-border-color: rgb(96, 185, 133);
-border-radius: 0.5cm;
-background-color: rgb(95, 167, 134);
-color: aliceblue;
-font-size: 2em;
 font-family: Arial, Helvetica, sans-serif;
 }
 input{
@@ -49,13 +36,14 @@ input{
     height: 0.5cm;
 }
 #input{
-    width: 5cm;
-    height: 2cm;
-    font-size: 3em
+    width: 4cm;
+    height: 1.5cm;
+font-size: 2em;
+}
+
+h1{
+    font-size: 3em;
 }
 div{
-    font-size: 1.5em;
-}
-h1{
-    font-size: 5em;
+    font-size: 1.2em
 }

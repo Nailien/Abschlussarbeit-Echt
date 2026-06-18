@@ -6,19 +6,19 @@ body{
 }
 
 h1{
-    font-size: 7em;
+    font-size: 3em;
 }
 
 button{
     background-color: #333;
     color: aliceblue;
 
-    border: 3px solid aliceblue;
+    border: 2px solid aliceblue;
     border-radius: 20px;
 
     padding: 10px 25px;
 
-    font-size: 7em;
+    font-size: 2em;
 
     cursor: pointer;
 
@@ -30,7 +30,7 @@ button:hover{
     color: #333;
 }
 .Spieler{
-    font-size: 4em;
+    font-size: 2em;
     align-items: left;
 }
 .green{
